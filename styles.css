@@ -1,0 +1,347 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(/imgs/ship.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position-x: center;
+}
+
+.nav {
+    display: flex;
+    width: 65vw;
+    height: 15vh;
+    margin: auto;
+    margin-top: 6vh;
+    background-color: rgb(228, 228, 228);
+    align-items: center;
+}
+
+.logo li {
+    list-style: none;
+}
+
+.menu {
+    width: 100%;
+}
+
+.inf, .inf-cont {
+    margin-bottom: 20px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(39, 39, 39);
+    align-items: center;
+}
+
+.tty {
+    color: #fff !important;
+    justify-content: space-between !important;
+    padding: 15px;
+}
+
+.inf > .inf-cont > a {
+    color: rgb(143, 141, 141);
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.info {
+    list-style: none;
+}
+
+.info-cont {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info > .info-cont > a {
+    font-family: Roboto, sans-serif;
+    font-size: 22px;
+}
+
+#flag {
+    width: 2vw;
+    height: 4vh;
+}
+
+.active {
+    color: red !important;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+section {
+    width: 65vw;
+    height: 80vh;
+    margin: auto;
+}
+
+.new-sec {
+    width: 100%;
+    background-color: #fff;
+    height: 65vh;
+}
+
+.comp {
+    margin-top: 8%;
+    /* margin-left: 17.5%; */
+    width: 30vw;
+    background: rgb(228, 228, 228);
+    padding: 2vh;
+    margin-bottom: 20vh;
+}
+
+.comp:hover {
+    cursor: pointer;
+    box-shadow: 5px 2px 10px rgb(255, 55, 55);
+    transition: ease-in-out 0.3s;
+}
+
+
+.mms {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mms p {
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.fa-less-than:hover, .fa-greater-than:hover {
+    box-shadow: 4px 10px 10px;
+    background-color: black;
+    color: white;
+    width: 1vw;
+    height: 2vh;
+    align-items: center;
+    transition: ease-in-out 0.5s;
+}
+
+
+.tbil p {
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.tbil p:hover {
+    cursor: pointer;
+    text-shadow: 4px 4px 4px lightblue;
+}
+
+.wrap {
+    height: 25vh;
+    width: 18vw;
+    background-image: url(/imgs/plane.png);
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wrap-f {
+    background-image: url(/imgs/train.png);
+    height: 25vh;
+    width: 18vw;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wrap-b {
+    height: 25vh;
+    width: 18vw;
+    background-image: url(/imgs/shi.png);
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wrap, .wrap-b, .wrap-f, a {
+    display: flex;
+    align-items: flex-end;
+}
+
+.information-list {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    list-style: none;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+.compan {
+    text-decoration: none;
+    color: #fff;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+}
+
+.ctive {
+    color: red !important;
+    text-decoration: underline !important;
+}
+
+.train3-a, .ship2-a {
+    padding-left: 4.8vw;
+    padding-top: 8vh;
+}
+
+.ship2-a, .train3-a, a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+}
+
+.ship2-a, .train3-a, p {
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(94, 94, 94);
+}
+
+.siakh {
+    font-family: Roboto, sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 0.3vw;
+}
+
+.information-a {
+    width: 65vw;
+    margin: auto;
+}
+
+.information-list-a {
+    display: flex;
+}
+
+.information-item-a {
+    list-style: none;
+}
+
+.information-img {
+    height: 25vh;
+    width: 18vw;
+}
+
+
+.information-b {
+    display: flex;
+}
+
+.truck1 {
+    width: 50vw;
+    height: 65vh;
+    background-image: url(/imgs/truck.png);
+    background-size: 95% 100%;
+    background-repeat: no-repeat;
+}
+
+.background-coll {
+    width: 50vw;
+    height: 65vh;
+    background-image: url(/imgs/gray.png);
+    background-size: 100% 100%;
+}
+
+.about-comp {
+    position: absolute;
+    top: 180%;
+    left: 40%;
+    background-color: black;
+    opacity: 0.7;
+    width: 30vw;
+    height: 50vh;
+}
+
+.about-comp h3 {
+    color: #fff;
+    font-family: Roboto, sans-serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+    padding-top: 2vh;
+    padding-left: 4vw;
+}
+
+.about-comp p {
+    color: #fff;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    margin-top: 30px;
+    line-height: 2;
+    padding-left: 4vw;
+}
+
+.company-logs {
+    margin: auto;
+}
+
+.company-ul {
+    list-style: none;
+}
+
+.company-li {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 60vw;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.company-li > div > img {
+    width: 150px;
+    height: 100%;
+}
+
+footer {
+    width: 100%;
+    background-color: black;
+}
+
+.footer-info, .footer-info-list {
+    width: 65vw;
+    margin: auto;
+}
+
+.footer-info {
+    padding-top: 10px;
+}
+
+.footer-info > div > h3 {
+    color: #fff;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.2vw;
+}
+
+.footer-info-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    font-family: Roboto, sans-serif;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 0.2vw;
+}
+
+.footer-info-item p {
+    color: #fff;
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+}
+
