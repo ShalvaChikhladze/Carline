@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: url(/imgs/ship.png);
+    background: url(imgs/ship.png);
     background-size: 100%;
     background-repeat: no-repeat;
     width: 100%;
@@ -139,7 +139,7 @@ section {
 .wrap {
     height: 25vh;
     width: 18vw;
-    background-image: url(/imgs/plane.png);
+    background-image: url(imgs/plane.png);
     text-align: center;
     background-position: center;
     background-size: cover;
@@ -147,7 +147,7 @@ section {
 }
 
 .wrap-f {
-    background-image: url(/imgs/train.png);
+    background-image: url(imgs/train.png);
     height: 25vh;
     width: 18vw;
     text-align: center;
@@ -159,7 +159,7 @@ section {
 .wrap-b {
     height: 25vh;
     width: 18vw;
-    background-image: url(/imgs/shi.png);
+    background-image: url(imgs/shi.png);
     text-align: center;
     background-position: center;
     background-size: cover;
@@ -247,7 +247,7 @@ ul, li {
 .truck1 {
     width: 50vw;
     height: 65vh;
-    background-image: url(/imgs/truck.png);
+    background-image: url(imgs/truck.png);
     background-size: 95% 100%;
     background-repeat: no-repeat;
 }
@@ -255,7 +255,7 @@ ul, li {
 .background-coll {
     width: 50vw;
     height: 65vh;
-    background-image: url(/imgs/gray.png);
+    background-image: url(imgs/gray.png);
     background-size: 100% 100%;
 }
 
